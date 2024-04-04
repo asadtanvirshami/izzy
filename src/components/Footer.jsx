@@ -10,12 +10,15 @@ function Footer() {
       <div className="container px-10  md:px-32 py-16 mx-auto">
         <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <a className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
+            <a href="#help" className="title-font cursor-pointer font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
               How Izzy AI can help?
             </a>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <a className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
+            <a
+              href="https://vtm.ai/"
+              className="title-font cursor-pointer font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center"
+            >
               Company
             </a>
           </div>
@@ -25,7 +28,7 @@ function Footer() {
             </a>
           </div> */}
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <a className="title-font font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
+            <a href="#contact" className="title-font cursor-pointer font-medium text-white tracking-widest text-sm mb-3 flex justify-center items-center">
               Contact Us
             </a>
           </div>
@@ -45,7 +48,7 @@ function Footer() {
       <div className=" w-full h-px max-w-5xl mx-auto my-1 bg-[#262626]"></div>
 
       <p className="text-gray-400 text-sm text-center sm:text-left md:text-center px-10 md:px-32 py-5">
-        Copyright ©2024 Victoriam AI  - All rights reserved
+        Copyright ©2024 Victoriam AI - All rights reserved
       </p>
     </footer>
   );
